@@ -42,17 +42,17 @@
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnVentas = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panelHijoForm = new System.Windows.Forms.Panel();
             this.LogoCADEZAInicio = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelMenuLT.SuspendLayout();
             this.PanelsubMenuPagos.SuspendLayout();
             this.PanelsubMenuProductos.SuspendLayout();
             this.panelLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelHijoForm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LogoCADEZAInicio)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenuLT
@@ -70,9 +70,8 @@
             this.panelMenuLT.Controls.Add(this.panelLogo);
             this.panelMenuLT.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenuLT.Location = new System.Drawing.Point(0, 0);
-            this.panelMenuLT.Margin = new System.Windows.Forms.Padding(4);
             this.panelMenuLT.Name = "panelMenuLT";
-            this.panelMenuLT.Size = new System.Drawing.Size(325, 999);
+            this.panelMenuLT.Size = new System.Drawing.Size(244, 731);
             this.panelMenuLT.TabIndex = 2;
             // 
             // btnSalirEjecutable
@@ -85,11 +84,10 @@
             this.btnSalirEjecutable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalirEjecutable.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.btnSalirEjecutable.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnSalirEjecutable.Location = new System.Drawing.Point(0, 683);
-            this.btnSalirEjecutable.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSalirEjecutable.Location = new System.Drawing.Point(0, 554);
             this.btnSalirEjecutable.Name = "btnSalirEjecutable";
-            this.btnSalirEjecutable.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
-            this.btnSalirEjecutable.Size = new System.Drawing.Size(325, 74);
+            this.btnSalirEjecutable.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnSalirEjecutable.Size = new System.Drawing.Size(244, 60);
             this.btnSalirEjecutable.TabIndex = 28;
             this.btnSalirEjecutable.Text = "Salir";
             this.btnSalirEjecutable.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -106,11 +104,10 @@
             this.btnEmpleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEmpleado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.btnEmpleado.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnEmpleado.Location = new System.Drawing.Point(0, 609);
-            this.btnEmpleado.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEmpleado.Location = new System.Drawing.Point(0, 494);
             this.btnEmpleado.Name = "btnEmpleado";
-            this.btnEmpleado.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
-            this.btnEmpleado.Size = new System.Drawing.Size(325, 74);
+            this.btnEmpleado.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnEmpleado.Size = new System.Drawing.Size(244, 60);
             this.btnEmpleado.TabIndex = 25;
             this.btnEmpleado.Text = "Empleados";
             this.btnEmpleado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -123,10 +120,9 @@
             this.PanelsubMenuPagos.Controls.Add(this.btnSMTipoPago);
             this.PanelsubMenuPagos.Controls.Add(this.btnSMPago);
             this.PanelsubMenuPagos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PanelsubMenuPagos.Location = new System.Drawing.Point(0, 501);
-            this.PanelsubMenuPagos.Margin = new System.Windows.Forms.Padding(4);
+            this.PanelsubMenuPagos.Location = new System.Drawing.Point(0, 406);
             this.PanelsubMenuPagos.Name = "PanelsubMenuPagos";
-            this.PanelsubMenuPagos.Size = new System.Drawing.Size(325, 108);
+            this.PanelsubMenuPagos.Size = new System.Drawing.Size(244, 88);
             this.PanelsubMenuPagos.TabIndex = 24;
             // 
             // btnSMTipoPago
@@ -139,11 +135,10 @@
             this.btnSMTipoPago.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSMTipoPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.55F);
             this.btnSMTipoPago.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnSMTipoPago.Location = new System.Drawing.Point(0, 49);
-            this.btnSMTipoPago.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSMTipoPago.Location = new System.Drawing.Point(0, 40);
             this.btnSMTipoPago.Name = "btnSMTipoPago";
-            this.btnSMTipoPago.Padding = new System.Windows.Forms.Padding(53, 0, 0, 0);
-            this.btnSMTipoPago.Size = new System.Drawing.Size(325, 49);
+            this.btnSMTipoPago.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnSMTipoPago.Size = new System.Drawing.Size(244, 40);
             this.btnSMTipoPago.TabIndex = 3;
             this.btnSMTipoPago.Text = "Tipo de Pagos";
             this.btnSMTipoPago.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -161,10 +156,9 @@
             this.btnSMPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.55F);
             this.btnSMPago.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnSMPago.Location = new System.Drawing.Point(0, 0);
-            this.btnSMPago.Margin = new System.Windows.Forms.Padding(4);
             this.btnSMPago.Name = "btnSMPago";
-            this.btnSMPago.Padding = new System.Windows.Forms.Padding(53, 0, 0, 0);
-            this.btnSMPago.Size = new System.Drawing.Size(325, 49);
+            this.btnSMPago.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnSMPago.Size = new System.Drawing.Size(244, 40);
             this.btnSMPago.TabIndex = 2;
             this.btnSMPago.Text = "Pago";
             this.btnSMPago.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -181,11 +175,10 @@
             this.btnPagos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPagos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.btnPagos.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnPagos.Location = new System.Drawing.Point(0, 427);
-            this.btnPagos.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPagos.Location = new System.Drawing.Point(0, 346);
             this.btnPagos.Name = "btnPagos";
-            this.btnPagos.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
-            this.btnPagos.Size = new System.Drawing.Size(325, 74);
+            this.btnPagos.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnPagos.Size = new System.Drawing.Size(244, 60);
             this.btnPagos.TabIndex = 19;
             this.btnPagos.Text = "Pagos";
             this.btnPagos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -198,10 +191,9 @@
             this.PanelsubMenuProductos.Controls.Add(this.btnSMTipoProducto);
             this.PanelsubMenuProductos.Controls.Add(this.btnSProducto);
             this.PanelsubMenuProductos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PanelsubMenuProductos.Location = new System.Drawing.Point(0, 327);
-            this.PanelsubMenuProductos.Margin = new System.Windows.Forms.Padding(4);
+            this.PanelsubMenuProductos.Location = new System.Drawing.Point(0, 265);
             this.PanelsubMenuProductos.Name = "PanelsubMenuProductos";
-            this.PanelsubMenuProductos.Size = new System.Drawing.Size(325, 100);
+            this.PanelsubMenuProductos.Size = new System.Drawing.Size(244, 81);
             this.PanelsubMenuProductos.TabIndex = 18;
             // 
             // btnSMTipoProducto
@@ -214,11 +206,10 @@
             this.btnSMTipoProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSMTipoProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.55F);
             this.btnSMTipoProducto.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnSMTipoProducto.Location = new System.Drawing.Point(0, 49);
-            this.btnSMTipoProducto.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSMTipoProducto.Location = new System.Drawing.Point(0, 40);
             this.btnSMTipoProducto.Name = "btnSMTipoProducto";
-            this.btnSMTipoProducto.Padding = new System.Windows.Forms.Padding(53, 0, 0, 0);
-            this.btnSMTipoProducto.Size = new System.Drawing.Size(325, 50);
+            this.btnSMTipoProducto.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnSMTipoProducto.Size = new System.Drawing.Size(244, 41);
             this.btnSMTipoProducto.TabIndex = 1;
             this.btnSMTipoProducto.Text = "Tipo de Producto";
             this.btnSMTipoProducto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -236,10 +227,9 @@
             this.btnSProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.55F);
             this.btnSProducto.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnSProducto.Location = new System.Drawing.Point(0, 0);
-            this.btnSProducto.Margin = new System.Windows.Forms.Padding(4);
             this.btnSProducto.Name = "btnSProducto";
-            this.btnSProducto.Padding = new System.Windows.Forms.Padding(53, 0, 0, 0);
-            this.btnSProducto.Size = new System.Drawing.Size(325, 49);
+            this.btnSProducto.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnSProducto.Size = new System.Drawing.Size(244, 40);
             this.btnSProducto.TabIndex = 0;
             this.btnSProducto.Text = "Producto";
             this.btnSProducto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -256,11 +246,10 @@
             this.btnProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.btnProductos.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnProductos.Location = new System.Drawing.Point(0, 253);
-            this.btnProductos.Margin = new System.Windows.Forms.Padding(4);
+            this.btnProductos.Location = new System.Drawing.Point(0, 205);
             this.btnProductos.Name = "btnProductos";
-            this.btnProductos.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
-            this.btnProductos.Size = new System.Drawing.Size(325, 74);
+            this.btnProductos.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnProductos.Size = new System.Drawing.Size(244, 60);
             this.btnProductos.TabIndex = 12;
             this.btnProductos.Text = "Productos";
             this.btnProductos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -277,11 +266,10 @@
             this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.btnClientes.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnClientes.Location = new System.Drawing.Point(0, 179);
-            this.btnClientes.Margin = new System.Windows.Forms.Padding(4);
+            this.btnClientes.Location = new System.Drawing.Point(0, 145);
             this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
-            this.btnClientes.Size = new System.Drawing.Size(325, 74);
+            this.btnClientes.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnClientes.Size = new System.Drawing.Size(244, 60);
             this.btnClientes.TabIndex = 11;
             this.btnClientes.Text = "Clientes";
             this.btnClientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -298,11 +286,10 @@
             this.btnVentas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.btnVentas.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnVentas.Location = new System.Drawing.Point(0, 105);
-            this.btnVentas.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVentas.Location = new System.Drawing.Point(0, 85);
             this.btnVentas.Name = "btnVentas";
-            this.btnVentas.Padding = new System.Windows.Forms.Padding(27, 0, 0, 0);
-            this.btnVentas.Size = new System.Drawing.Size(325, 74);
+            this.btnVentas.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnVentas.Size = new System.Drawing.Size(244, 60);
             this.btnVentas.TabIndex = 1;
             this.btnVentas.Text = "Ventas";
             this.btnVentas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -315,10 +302,22 @@
             this.panelLogo.Controls.Add(this.pictureBox1);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Margin = new System.Windows.Forms.Padding(4);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(325, 105);
+            this.panelLogo.Size = new System.Drawing.Size(244, 85);
             this.panelLogo.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::ProyectoAyN.Properties.Resources._12;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(254, 89);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -326,10 +325,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30.25F);
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(92, 759);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(315, 577);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 59);
+            this.label1.Size = new System.Drawing.Size(0, 47);
             this.label1.TabIndex = 1;
             // 
             // panelHijoForm
@@ -340,10 +338,9 @@
             this.panelHijoForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
             this.panelHijoForm.Controls.Add(this.label1);
             this.panelHijoForm.Controls.Add(this.LogoCADEZAInicio);
-            this.panelHijoForm.Location = new System.Drawing.Point(320, 0);
-            this.panelHijoForm.Margin = new System.Windows.Forms.Padding(4);
+            this.panelHijoForm.Location = new System.Drawing.Point(240, 0);
             this.panelHijoForm.Name = "panelHijoForm";
-            this.panelHijoForm.Size = new System.Drawing.Size(1039, 1013);
+            this.panelHijoForm.Size = new System.Drawing.Size(1270, 742);
             this.panelHijoForm.TabIndex = 3;
             // 
             // LogoCADEZAInicio
@@ -353,44 +350,30 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.LogoCADEZAInicio.Image = global::ProyectoAyN.Properties.Resources._23;
             this.LogoCADEZAInicio.Location = new System.Drawing.Point(0, 0);
-            this.LogoCADEZAInicio.Margin = new System.Windows.Forms.Padding(4);
             this.LogoCADEZAInicio.Name = "LogoCADEZAInicio";
-            this.LogoCADEZAInicio.Size = new System.Drawing.Size(1035, 999);
+            this.LogoCADEZAInicio.Size = new System.Drawing.Size(1267, 731);
             this.LogoCADEZAInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.LogoCADEZAInicio.TabIndex = 0;
             this.LogoCADEZAInicio.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::ProyectoAyN.Properties.Resources._12;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(339, 109);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // MenuInicial
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1351, 999);
+            this.ClientSize = new System.Drawing.Size(1504, 731);
             this.Controls.Add(this.panelHijoForm);
             this.Controls.Add(this.panelMenuLT);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MenuInicial";
             this.Text = "Form1";
             this.panelMenuLT.ResumeLayout(false);
             this.PanelsubMenuPagos.ResumeLayout(false);
             this.PanelsubMenuProductos.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelHijoForm.ResumeLayout(false);
             this.panelHijoForm.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LogoCADEZAInicio)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

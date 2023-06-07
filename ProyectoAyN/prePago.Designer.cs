@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(prePago));
             this.btnNuevo = new System.Windows.Forms.Button();
             this.dgvPago = new System.Windows.Forms.DataGridView();
@@ -60,10 +60,9 @@
             this.btnNuevo.FlatAppearance.BorderSize = 0;
             this.btnNuevo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
             this.btnNuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
-            this.btnNuevo.Location = new System.Drawing.Point(731, 25);
-            this.btnNuevo.Margin = new System.Windows.Forms.Padding(4);
+            this.btnNuevo.Location = new System.Drawing.Point(1087, 21);
             this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(185, 55);
+            this.btnNuevo.Size = new System.Drawing.Size(139, 45);
             this.btnNuevo.TabIndex = 18;
             this.btnNuevo.Text = "NUEVO";
             this.btnNuevo.UseVisualStyleBackColor = false;
@@ -76,37 +75,36 @@
             this.dgvPago.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvPago.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.dgvPago.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.RoyalBlue;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvPago.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.RoyalBlue;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvPago.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvPago.ColumnHeadersHeight = 40;
             this.dgvPago.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvPago.EnableHeadersVisualStyles = false;
             this.dgvPago.GridColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dgvPago.Location = new System.Drawing.Point(7, 88);
-            this.dgvPago.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvPago.Location = new System.Drawing.Point(5, 72);
             this.dgvPago.Name = "dgvPago";
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.MediumSlateBlue;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvPago.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.MediumSlateBlue;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvPago.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvPago.RowHeadersWidth = 51;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvPago.RowsDefaultCellStyle = dataGridViewCellStyle9;
-            this.dgvPago.Size = new System.Drawing.Size(909, 213);
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
+            this.dgvPago.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            this.dgvPago.Size = new System.Drawing.Size(1241, 173);
             this.dgvPago.TabIndex = 17;
             this.dgvPago.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPago_CellContentClick);
             // 
@@ -127,11 +125,9 @@
             this.groupBoxDatos.Controls.Add(this.labelID);
             this.groupBoxDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
             this.groupBoxDatos.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBoxDatos.Location = new System.Drawing.Point(13, 324);
-            this.groupBoxDatos.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBoxDatos.Location = new System.Drawing.Point(10, 263);
             this.groupBoxDatos.Name = "groupBoxDatos";
-            this.groupBoxDatos.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBoxDatos.Size = new System.Drawing.Size(909, 479);
+            this.groupBoxDatos.Size = new System.Drawing.Size(1241, 389);
             this.groupBoxDatos.TabIndex = 20;
             this.groupBoxDatos.TabStop = false;
             this.groupBoxDatos.Text = "GRUPO DE DATOS DEL PAGO";
@@ -139,10 +135,9 @@
             // cmbTipoPago
             // 
             this.cmbTipoPago.FormattingEnabled = true;
-            this.cmbTipoPago.Location = new System.Drawing.Point(647, 188);
-            this.cmbTipoPago.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbTipoPago.Location = new System.Drawing.Point(485, 153);
             this.cmbTipoPago.Name = "cmbTipoPago";
-            this.cmbTipoPago.Size = new System.Drawing.Size(232, 33);
+            this.cmbTipoPago.Size = new System.Drawing.Size(175, 28);
             this.cmbTipoPago.TabIndex = 12;
             // 
             // label2
@@ -150,38 +145,37 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(445, 188);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(334, 153);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(164, 30);
+            this.label2.Size = new System.Drawing.Size(140, 25);
             this.label2.TabIndex = 11;
             this.label2.Text = "Tipo de Pago";
             // 
             // cmbEmpleado
             // 
             this.cmbEmpleado.FormattingEnabled = true;
-            this.cmbEmpleado.Location = new System.Drawing.Point(193, 185);
-            this.cmbEmpleado.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbEmpleado.Location = new System.Drawing.Point(145, 150);
             this.cmbEmpleado.Name = "cmbEmpleado";
-            this.cmbEmpleado.Size = new System.Drawing.Size(215, 33);
+            this.cmbEmpleado.Size = new System.Drawing.Size(162, 28);
             this.cmbEmpleado.TabIndex = 10;
             // 
             // dtpPago
             // 
             this.dtpPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.dtpPago.Location = new System.Drawing.Point(36, 303);
-            this.dtpPago.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dtpPago.Location = new System.Drawing.Point(27, 246);
+            this.dtpPago.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtpPago.Name = "dtpPago";
-            this.dtpPago.Size = new System.Drawing.Size(467, 36);
+            this.dtpPago.Size = new System.Drawing.Size(351, 31);
             this.dtpPago.TabIndex = 9;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.label5.Location = new System.Drawing.Point(35, 252);
+            this.label5.Location = new System.Drawing.Point(26, 205);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(222, 30);
+            this.label5.Size = new System.Drawing.Size(188, 25);
             this.label5.TabIndex = 8;
             this.label5.Text = "Fecha de Registro";
             // 
@@ -189,20 +183,18 @@
             // 
             this.txtMontoPago.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtMontoPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.txtMontoPago.Location = new System.Drawing.Point(428, 117);
-            this.txtMontoPago.Margin = new System.Windows.Forms.Padding(4);
+            this.txtMontoPago.Location = new System.Drawing.Point(321, 95);
             this.txtMontoPago.Name = "txtMontoPago";
-            this.txtMontoPago.Size = new System.Drawing.Size(464, 36);
+            this.txtMontoPago.Size = new System.Drawing.Size(349, 31);
             this.txtMontoPago.TabIndex = 2;
             // 
             // txtidComprobantePagos
             // 
             this.txtidComprobantePagos.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txtidComprobantePagos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.txtidComprobantePagos.Location = new System.Drawing.Point(428, 47);
-            this.txtidComprobantePagos.Margin = new System.Windows.Forms.Padding(4);
+            this.txtidComprobantePagos.Location = new System.Drawing.Point(321, 38);
             this.txtidComprobantePagos.Name = "txtidComprobantePagos";
-            this.txtidComprobantePagos.Size = new System.Drawing.Size(155, 36);
+            this.txtidComprobantePagos.Size = new System.Drawing.Size(117, 31);
             this.txtidComprobantePagos.TabIndex = 2;
             // 
             // btnCancelar
@@ -213,10 +205,9 @@
             this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
             this.btnCancelar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnCancelar.Location = new System.Drawing.Point(695, 393);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCancelar.Location = new System.Drawing.Point(800, 319);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(185, 55);
+            this.btnCancelar.Size = new System.Drawing.Size(139, 45);
             this.btnCancelar.TabIndex = 1;
             this.btnCancelar.Text = "CANCELAR";
             this.btnCancelar.UseVisualStyleBackColor = false;
@@ -230,10 +221,9 @@
             this.btnAgregar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
             this.btnAgregar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnAgregar.Location = new System.Drawing.Point(36, 393);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAgregar.Location = new System.Drawing.Point(27, 319);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(185, 55);
+            this.btnAgregar.Size = new System.Drawing.Size(139, 45);
             this.btnAgregar.TabIndex = 1;
             this.btnAgregar.Text = "AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = false;
@@ -244,10 +234,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(29, 185);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(22, 150);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 30);
+            this.label1.Size = new System.Drawing.Size(108, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Empleado";
             // 
@@ -256,10 +245,9 @@
             this.labelNB.AutoSize = true;
             this.labelNB.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.labelNB.ForeColor = System.Drawing.Color.White;
-            this.labelNB.Location = new System.Drawing.Point(29, 117);
-            this.labelNB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelNB.Location = new System.Drawing.Point(22, 95);
             this.labelNB.Name = "labelNB";
-            this.labelNB.Size = new System.Drawing.Size(84, 30);
+            this.labelNB.Size = new System.Drawing.Size(72, 25);
             this.labelNB.TabIndex = 0;
             this.labelNB.Text = "Monto";
             // 
@@ -268,20 +256,18 @@
             this.labelID.AutoSize = true;
             this.labelID.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.labelID.ForeColor = System.Drawing.Color.White;
-            this.labelID.Location = new System.Drawing.Point(29, 47);
-            this.labelID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelID.Location = new System.Drawing.Point(22, 38);
             this.labelID.Name = "labelID";
-            this.labelID.Size = new System.Drawing.Size(234, 30);
+            this.labelID.Size = new System.Drawing.Size(197, 25);
             this.labelID.TabIndex = 0;
             this.labelID.Text = "Comprobante Pago";
             // 
             // pictureBoxSalir
             // 
             this.pictureBoxSalir.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSalir.Image")));
-            this.pictureBoxSalir.Location = new System.Drawing.Point(13, 13);
-            this.pictureBoxSalir.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBoxSalir.Location = new System.Drawing.Point(23, 21);
             this.pictureBoxSalir.Name = "pictureBoxSalir";
-            this.pictureBoxSalir.Size = new System.Drawing.Size(52, 43);
+            this.pictureBoxSalir.Size = new System.Drawing.Size(39, 35);
             this.pictureBoxSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxSalir.TabIndex = 19;
             this.pictureBoxSalir.TabStop = false;
@@ -289,14 +275,15 @@
             // 
             // prePago
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
-            this.ClientSize = new System.Drawing.Size(922, 809);
+            this.ClientSize = new System.Drawing.Size(1251, 657);
             this.Controls.Add(this.groupBoxDatos);
             this.Controls.Add(this.pictureBoxSalir);
             this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.dgvPago);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "prePago";
             this.Text = "prePago";
             ((System.ComponentModel.ISupportInitialize)(this.dgvPago)).EndInit();

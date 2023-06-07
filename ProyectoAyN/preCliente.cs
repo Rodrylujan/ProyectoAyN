@@ -62,7 +62,7 @@ namespace ProyectoAyN
                 MessageBox.Show("Error.." + ex);
             }
             limpiarVariables();
-            groupBoxDatos.Enabled = false;
+            groupBoxDatos.Visible = false;
             listarCliente();
         }
 
@@ -73,7 +73,6 @@ namespace ProyectoAyN
         private void btnNuevo_Click(object sender, EventArgs e)
         {
             groupBoxDatos.Visible = true;
-
             btnAgregar.Visible = true;
             limpiarVariables();
         }

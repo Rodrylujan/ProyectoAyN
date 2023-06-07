@@ -67,7 +67,7 @@
             this.btnNuevo.FlatAppearance.BorderSize = 0;
             this.btnNuevo.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
             this.btnNuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
-            this.btnNuevo.Location = new System.Drawing.Point(569, 18);
+            this.btnNuevo.Location = new System.Drawing.Point(1087, 21);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(139, 45);
             this.btnNuevo.TabIndex = 22;
@@ -112,14 +112,14 @@
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.DarkCyan;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
             this.dgvVenta.RowsDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgvVenta.Size = new System.Drawing.Size(682, 162);
+            this.dgvVenta.Size = new System.Drawing.Size(1077, 162);
             this.dgvVenta.TabIndex = 21;
             this.dgvVenta.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvVenta_CellContentClick);
             // 
             // pictureBoxSalir
             // 
             this.pictureBoxSalir.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxSalir.Image")));
-            this.pictureBoxSalir.Location = new System.Drawing.Point(26, 18);
+            this.pictureBoxSalir.Location = new System.Drawing.Point(23, 21);
             this.pictureBoxSalir.Name = "pictureBoxSalir";
             this.pictureBoxSalir.Size = new System.Drawing.Size(39, 35);
             this.pictureBoxSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -153,7 +153,7 @@
             this.groupBoxDatos.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBoxDatos.Location = new System.Drawing.Point(26, 271);
             this.groupBoxDatos.Name = "groupBoxDatos";
-            this.groupBoxDatos.Size = new System.Drawing.Size(682, 434);
+            this.groupBoxDatos.Size = new System.Drawing.Size(1077, 434);
             this.groupBoxDatos.TabIndex = 24;
             this.groupBoxDatos.TabStop = false;
             this.groupBoxDatos.Text = "GRUPO DE DATOS DE LA VENTA";
@@ -227,7 +227,7 @@
             // 
             this.dtpVenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.dtpVenta.Location = new System.Drawing.Point(27, 301);
-            this.dtpVenta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtpVenta.Margin = new System.Windows.Forms.Padding(2);
             this.dtpVenta.Name = "dtpVenta";
             this.dtpVenta.Size = new System.Drawing.Size(351, 31);
             this.dtpVenta.TabIndex = 9;
@@ -278,7 +278,7 @@
             this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
             this.btnCancelar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnCancelar.Location = new System.Drawing.Point(513, 349);
+            this.btnCancelar.Location = new System.Drawing.Point(908, 349);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(139, 45);
             this.btnCancelar.TabIndex = 1;
@@ -353,7 +353,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
-            this.button1.Location = new System.Drawing.Point(388, 18);
+            this.button1.Location = new System.Drawing.Point(912, 21);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(139, 45);
             this.button1.TabIndex = 25;
@@ -366,13 +366,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
-            this.ClientSize = new System.Drawing.Size(856, 714);
+            this.ClientSize = new System.Drawing.Size(1251, 714);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBoxDatos);
             this.Controls.Add(this.pictureBoxSalir);
             this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.dgvVenta);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "preVenta";
             this.Text = "preVenta";
             ((System.ComponentModel.ISupportInitialize)(this.dgvVenta)).EndInit();

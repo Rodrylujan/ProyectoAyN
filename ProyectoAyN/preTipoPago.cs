@@ -51,7 +51,7 @@ namespace ProyectoAyN
                 MessageBox.Show("Error.." + ex);
             }
             limpiarVariables();
-            groupBoxDatos.Enabled = false;
+            groupBoxDatos.Visible = false;
             listarTipoPago();
         }
 
