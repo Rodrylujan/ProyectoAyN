@@ -63,7 +63,6 @@ namespace DAT
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spinsertarTipoPago", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@idTipoPago", tp.idTipoPago);
                 cmd.Parameters.AddWithValue("@NombreTP", tp.NombreTP);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();

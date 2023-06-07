@@ -89,7 +89,6 @@ namespace ProyectoAyN
             try
             {
                 entVenta v = new entVenta();
-                v.idVenta = int.Parse(txtidVenta.Text.Trim());
                 v.idComprobante = int.Parse(txtComprobante.Text.Trim());
                 v.idProducto = Convert.ToInt32(cmbProducto.SelectedValue);
                 v.Monto = int.Parse(txtMonto.Text.Trim());

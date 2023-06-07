@@ -53,7 +53,6 @@ namespace ProyectoAyN
             try
             {
                 entProducto I = new entProducto();
-                I.idProducto = int.Parse(txtidProducto.Text.Trim());
                 I.nombreProducto = txtnombreProducto.Text.Trim();
                 I.idtipoProducto = Convert.ToInt32(cmbTipoProducto.SelectedValue);
                 I.descripcion = txtDescripcion.Text.Trim();

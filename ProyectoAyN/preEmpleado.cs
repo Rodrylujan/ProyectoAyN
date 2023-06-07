@@ -48,7 +48,6 @@ namespace ProyectoAyN
             try
             {
                 entEmpleado em = new entEmpleado();
-                em.idEmpleado = int.Parse(txtidEmpleado.Text.Trim());
                 em.nombreEmpleado = txtnombreEmpleado.Text.Trim();
                 em.dni = int.Parse(txtDni.Text.Trim());
                 em.TipoEmpleado = txttipoEmpleado.Text.Trim();

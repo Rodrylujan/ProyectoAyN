@@ -69,7 +69,6 @@ namespace DAT
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spinsertarEmpleado", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@idEmpleado", Emp.idEmpleado);
                 cmd.Parameters.AddWithValue("@nombreEmpleado", Emp.nombreEmpleado);
                 cmd.Parameters.AddWithValue("@dni", Emp.dni);
                 cmd.Parameters.AddWithValue("@TipoEmpleado", Emp.TipoEmpleado);
