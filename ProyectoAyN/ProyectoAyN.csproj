@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C8AFF46-7A65-4326-B833-63DCB0EDC5E1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProyectoAyN</RootNamespace>
+    <AssemblyName>ProyectoAyN</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1576.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1576.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1576.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1576.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1576.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MenuInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuInicial.Designer.cs">
+      <DependentUpon>MenuInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="preCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="preCliente.Designer.cs">
+      <DependentUpon>preCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="preEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="preEmpleado.Designer.cs">
+      <DependentUpon>preEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="prePago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prePago.Designer.cs">
+      <DependentUpon>prePago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="preProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="preProducto.Designer.cs">
+      <DependentUpon>preProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="preTipoPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="preTipoPago.Designer.cs">
+      <DependentUpon>preTipoPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="preTipoProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="preTipoProducto.Designer.cs">
+      <DependentUpon>preTipoProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="preVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="preVenta.Designer.cs">
+      <DependentUpon>preVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reportes\DataSetRP.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\frm_repor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportes\frm_repor.Designer.cs">
+      <DependentUpon>frm_repor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="MenuInicial.resx">
+      <DependentUpon>MenuInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="preCliente.resx">
+      <DependentUpon>preCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="preEmpleado.resx">
+      <DependentUpon>preEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prePago.resx">
+      <DependentUpon>prePago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="preProducto.resx">
+      <DependentUpon>preProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="preTipoPago.resx">
+      <DependentUpon>preTipoPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="preTipoProducto.resx">
+      <DependentUpon>preTipoProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="preVenta.resx">
+      <DependentUpon>preVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="reportes\frm_repor.resx">
+      <DependentUpon>frm_repor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportes\rpventa.rdlc" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="reportes\DataSetRP.xsc">
+      <DependentUpon>DataSetRP.xsd</DependentUpon>
+    </None>
+    <None Include="reportes\DataSetRP.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRP.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="reportes\DataSetRP.xss">
+      <DependentUpon>DataSetRP.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\23.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ENT\ENT.csproj">
+      <Project>{c14cdce6-342b-438a-8a97-761cf4fff8bf}</Project>
+      <Name>ENT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LOG\LOG.csproj">
+      <Project>{6291b2f5-7f66-4af4-9d02-9938e8b1efc3}</Project>
+      <Name>LOG</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
