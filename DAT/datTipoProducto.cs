@@ -64,7 +64,6 @@ namespace DAT
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spinsertarTipoProducto", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@idtipoProducto", ti.idtipoProducto);
                 cmd.Parameters.AddWithValue("@nombreTipoProducto", ti.nombreTipoProducto);
                 cmd.Parameters.AddWithValue("@descripcionTipoProducto", ti.descripcionTipoProducto);
                 cn.Open();

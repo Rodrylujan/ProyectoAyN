@@ -44,7 +44,6 @@ namespace ProyectoAyN
             try
             {
                 entTipoProducto tp = new entTipoProducto();
-                tp.idtipoProducto = int.Parse(txtidTipoProducto.Text.Trim());
                 tp.nombreTipoProducto = txtTipoProducto.Text.Trim();
                 tp.descripcionTipoProducto = txtDescripcion.Text.Trim();
                 logTipoProducto.Instancia.insertarTipoProducto(tp);

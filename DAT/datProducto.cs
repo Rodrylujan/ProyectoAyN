@@ -70,7 +70,6 @@ namespace DAT
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spinsertarProducto", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@idProducto", Inm.idProducto);
                 cmd.Parameters.AddWithValue("@nombreProducto", Inm.nombreProducto);
                 cmd.Parameters.AddWithValue("@idtipoProducto", Inm.idtipoProducto);
                 cmd.Parameters.AddWithValue("@descripcion", Inm.descripcion);

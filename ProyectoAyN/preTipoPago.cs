@@ -43,7 +43,6 @@ namespace ProyectoAyN
             try
             {
                 entTipoPago tp = new entTipoPago();
-                tp.idTipoPago = int.Parse(txtidTipoPago.Text.Trim());
                 tp.NombreTP = txtNombreTP.Text.Trim();
                 logTipoPago.Instancia.insertarTipoPago(tp);
             }

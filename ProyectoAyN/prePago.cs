@@ -63,7 +63,6 @@ namespace ProyectoAyN
             try
             {
                 entPago p = new entPago();
-                p.idComprobantePagos = int.Parse(txtidComprobantePagos.Text.Trim());
                 p.MontoPago = int.Parse(txtMontoPago.Text.Trim());
                 p.fechaPago = dtpPago.Value;
                 p.idEmpleado = Convert.ToInt32(cmbEmpleado.SelectedValue);

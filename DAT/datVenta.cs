@@ -71,7 +71,6 @@ namespace DAT
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spinsertarVenta", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@idVenta", Ven.idVenta);
                 cmd.Parameters.AddWithValue("@idComprobante", Ven.idVenta);
                 cmd.Parameters.AddWithValue("@idProducto", Ven.idProducto);
                 cmd.Parameters.AddWithValue("@Monto", Ven.Monto);
